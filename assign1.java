@@ -1,5 +1,5 @@
 
-public class assign1
+public class fsd_prac1
 {
     public static void main()
     {
