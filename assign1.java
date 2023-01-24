@@ -5,14 +5,14 @@ public class assign1
     {
         int temp;
         int A[]={1,4,382,79,44,86,722,51,9};
-        int Alen =A.length;
+        int Devesh =A.length;
         int N = 666;
         int f = 0;
-        int l = Alen - 1;
+        int l = Devesh - 1;
         int mid = (f+l)/2;
-        for(int i=0;i<Alen-1;i++)
+        for(int i=0;i<Devesh-1;i++)
         {
-            for(int j =0;j<Alen-i-1;j++)
+            for(int j =0;j<Devesh-i-1;j++)
             {
                 if (A[j] > A[j+1])  
                 {
@@ -24,7 +24,7 @@ public class assign1
        }
         
         System.out.println("Sorted Array is ");
-       for(int i=0;i<Alen;i++)
+       for(int i=0;i<Devesh;i++)
         {
             System.out.print(" "+A[i]+" ");
         }
